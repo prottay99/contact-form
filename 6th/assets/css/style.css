@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+input:focus ,textarea:focus{
+    outline: none;
+}
+::placeholder {
+    color: #888;
+}
+body {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 50%;
+    height: 100vh;
+    background-color: yellow;
+    float: right;
+    position: relative;
+}
+.container .contact-form {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.container .contact-form:after {
+    content: ;
+    display: block;
+    clear: both;
+}
+.contact-form h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+}
+.contact-form p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    word-spacing: 1px;
+}
+.name {
+    float: left;
+    margin-top: 30px;
+}
+.name p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.name input {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.Company {
+    float: right;
+    margin-top: 30px;
+}
+.Company p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.Company input {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+.Email {
+    float: left;
+    margin-top: 30px;
+}
+.Email p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.Email input {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+.Subject {
+    float: right;
+    margin-top: 30px;
+}
+.Subject p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.Subject input {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+.info {
+    float: left;
+    margin-top: 20px;
+}
+.info p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.info textarea {
+    width: 547px;
+    height: 150px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.contact-form form button {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding: 10px 80px;
+    border: none;
+    background-color: #222;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
